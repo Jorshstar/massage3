@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import ServiceCard from "./ServiceCard";
 import TestimonialSlider from "./TestimonialSlider";
 import FloatingAnimation from "./FloatingAnimation";
-import { FaFacebook, FaInstagram, FaTelegram, FaTiktok } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTelegram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 const Home = () => {
   // Smooth scrolling implementation
@@ -238,7 +238,7 @@ const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            About Us
+            About Me
           </motion.h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -260,7 +260,7 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <h3 className="text-2xl font-semibold mb-4 text-[#9d174d] font-serif">
-                Our Story
+                My Story
               </h3>
               <p className="mb-6 text-gray-700 leading-relaxed">
               Welcome to Dulce’s Massage Therapy 
@@ -296,7 +296,7 @@ const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Our Services
+            My Services
           </motion.h2>
           <div className="flex flex-col space-y-8">
             {services.map((service, index) => (
@@ -330,7 +330,7 @@ const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Our Gallery
+            Behind the Scenes
           </motion.h2>
           <div className="grid grid-cols-3 gap-4">
             {/* Image 1 */}
@@ -620,7 +620,7 @@ const Home = () => {
 <section id="contact" className="py-16 md:py-20 px-4 bg-white">
   <div className="container mx-auto max-w-4xl px-4">
     <motion.h2
-      className="text-2xl md:text-4xl font-bold mb-8 md:mb-12 text-center text-[#3a5a40]"
+      className="text-2xl md:text-4xl font-bold mb-8 md:mb-12 text-center text-[#9d174d] font-serif"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -656,7 +656,7 @@ const Home = () => {
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               />
             </svg>
-            <span>(555) 123-4567</span>
+            <span>(734) 406-2193</span>
           </p>
           <p className="flex items-center text-sm md:text-base">
             <svg
@@ -673,7 +673,11 @@ const Home = () => {
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
               />
             </svg>
-            <span>info@marlenewellnessmassage.com</span>
+            <span>dulcesmassagetherapy@gmail.com</span>
+          </p>
+          <p className="flex items-center text-sm md:text-base">
+          <FaWhatsapp className="h-5 w-5 md:h-6 md:w-6 text-[#9d174d]" />
+            <span> (734) 406-2193 </span>
           </p>
         </div>
         
@@ -693,6 +697,11 @@ const Home = () => {
             </a>
             <a href="#" className="text-[#9d174d] hover:text-[#3a5a40] transition-colors">
               <FaInstagram className="h-5 w-5 md:h-6 md:w-6" />
+            </a>
+            <a href="https://wa.me/17344062193" 
+            className="text-[#9d174d] hover:text-[#3a5a40] transition-colors"
+            title="Contact us on WhatsApp">
+              <FaWhatsapp className="h-5 w-5 md:h-6 md:w-6" />
             </a>
           </div>
         </div>
