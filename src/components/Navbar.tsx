@@ -63,7 +63,7 @@ const Navbar = ({
           {logo ? (
             <img src={logo} alt={brandName} className="h-10" />
           ) : (
-            <span className="text-2xl font-semibold text-teal-700">
+            <span className="text-2xl font-semibold text-[#9d174d]">
               {brandName}
             </span>
           )}
@@ -79,7 +79,7 @@ const Navbar = ({
                 e.preventDefault();
                 scrollToSection(link.href);
               }}
-              className="text-gray-700 hover:text-teal-600 font-medium transition-colors"
+              className="text-gray-700 hover:text-[#e7538e] font-medium transition-colors"
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
@@ -92,7 +92,7 @@ const Navbar = ({
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-gray-700 hover:text-teal-600 transition-colors"
+            className="text-[#9d174d] hover:text-[#f55897] transition-colors"
             aria-label="Toggle menu"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -118,7 +118,7 @@ const Navbar = ({
                   e.preventDefault();
                   scrollToSection(link.href);
                 }}
-                className="text-gray-700 hover:text-teal-600 font-medium transition-colors py-2 px-4 hover:bg-gray-100 rounded-md"
+                className="text-gray-700 hover:text-[#ec5591] font-medium transition-colors py-2 px-4 hover:bg-gray-100 rounded-md"
               >
                 {link.name}
               </a>
