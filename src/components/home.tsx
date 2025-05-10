@@ -226,7 +226,7 @@ const Home = () => {
       id: 3,
       name: "Robert Davis",
       text: "The hot stone massage was incredibly relaxing. The ambiance of the space combined with the therapist's expertise created the perfect escape from my busy life.",
-      rating: 4,
+      rating: 5,
       avatar: "/images/gallery/man-head3.webp",
     },
     {
