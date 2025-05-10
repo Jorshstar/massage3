@@ -33,85 +33,176 @@ const Home = () => {
 
   // Services data
   const services = [
+    // {
+    //   id: 1,
+    //   name: "Signature Luxury Massage",
+    //   description:
+    //     "Our exclusive treatment combines multiple techniques tailored to your specific needs. This premium experience includes aromatherapy, heated towels, and a scalp massage, leaving you in a state of complete bliss and rejuvenation.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1620733723572-11c53f73a416?w=800&q=80",
+    //   bookingLink: "https://form.jotform.com/251290581267560",
+    //   isReversed: false,
+    // },
+    // {
+    //   id: 2,
+    //   name: "Deep Tissue Therapy",
+    //   description:
+    //     "A therapeutic massage that targets the deeper layers of muscle and connective tissue. Using slow, deliberate strokes and firm pressure, our specialists release chronic tension patterns and provide relief from persistent pain and stiffness.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
+    //   bookingLink: "https://form.jotform.com/251290581267560",
+    //   isReversed: true,
+    // },
+    // {
+    //   id: 3,
+    //   name: "Hot Stone Experience",
+    //   description:
+    //     "Smooth, heated basalt stones are placed on key points of the body while warm oil is used for massage. The heat penetrates deeply into muscles, inducing profound relaxation while improving circulation and relieving tension.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80",
+    //   bookingLink: "https://form.jotform.com/251290581267560",
+    //   isReversed: false,
+    // },
+    // {
+    //   id: 4,
+    //   name: "Prenatal Comfort Massage",
+    //   description:
+    //     "Specially designed for expectant mothers in their second and third trimesters. This gentle massage relieves the unique discomforts of pregnancy such as back pain, joint aches, and swelling, while ensuring both mother and baby's safety and comfort.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80",
+    //   bookingLink: "https://form.jotform.com/251290581267560",
+    //   isReversed: true,
+    // },
+    // {
+    //   id: 5,
+    //   name: "Aromatherapy Journey",
+    //   description:
+    //     "Enhance your massage with custom-blended essential oils chosen to address your specific needs—whether for relaxation, energy, immune support, or mental clarity. This multi-sensory experience elevates the therapeutic benefits of massage while nurturing both body and mind.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?w=800&q=80",
+    //   bookingLink: "https://form.jotform.com/251290581267560",
+    //   isReversed: false,
+    // },
+    // {
+    //   id: 6,
+    //   name: "Thai-Inspired Stretch Therapy",
+    //   description:
+    //     "A unique therapy that combines gentle stretching with acupressure techniques. Our therapists guide you through yoga-like stretches while applying pressure along energy lines, improving flexibility, circulation, and creating a sense of lightness in the body.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1537128535997-13b690849da9?w=800&q=80",
+    //   bookingLink: "https://form.jotform.com/251290581267560",
+    //   isReversed: true,
+    // },
+    // {
+    //   id: 7,
+    //   name: "Executive Stress Relief",
+    //   description:
+    //     "Designed for busy professionals, this targeted treatment focuses on areas most affected by workplace stress—the neck, shoulders, and back. Includes special attention to tension headaches and the effects of prolonged sitting, providing rapid relief and renewed focus.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1573495804683-641191e042ea?w=800&q=80",
+    //   bookingLink: "https://form.jotform.com/251290581267560",
+    //   isReversed: false,
+    // },
+    // {
+    //   id: 8,
+    //   name: "Couples Retreat",
+    //   description:
+    //     "Share the gift of relaxation with someone special. Two therapists work in tandem to provide simultaneous massages in our dedicated couples suite. Choose from any of our massage modalities and enjoy this shared journey to wellness.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=800&q=80",
+    //   bookingLink: "https://form.jotform.com/251290581267560",
+    //   isReversed: true,
+    // },
     {
       id: 1,
-      name: "Signature Luxury Massage",
+      name: "Deep Tissue Massage",
       description:
-        "Our exclusive treatment combines multiple techniques tailored to your specific needs. This premium experience includes aromatherapy, heated towels, and a scalp massage, leaving you in a state of complete bliss and rejuvenation.",
+        "Targets deeper layers of muscle and connective tissue to release chronic tension. Marlenewellness therapy applies firm pressure to reach problem areas, providing relief from persistent pain and improving mobility. Perfect for those with chronic aches or recovering from injuries.",
       image:
-        "https://images.unsplash.com/photo-1620733723572-11c53f73a416?w=800&q=80",
+        "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80",
+
       bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: false,
     },
     {
       id: 2,
-      name: "Deep Tissue Therapy",
+      name: "Heated Stone Massage",
       description:
-        "A therapeutic massage that targets the deeper layers of muscle and connective tissue. Using slow, deliberate strokes and firm pressure, our specialists release chronic tension patterns and provide relief from persistent pain and stiffness.",
+        "Experience deep relaxation as smooth, heated stones are placed on key points of your body. The warmth penetrates muscles to release tension while Marlenewellness therapy uses the stones to apply gentle pressure. This therapeutic treatment improves circulation and promotes a profound sense of well-being.",
       image:
-        "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
+        "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80",
       bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: true,
     },
     {
       id: 3,
-      name: "Hot Stone Experience",
+      name: "Thai Massage",
       description:
-        "Smooth, heated basalt stones are placed on key points of the body while warm oil is used for massage. The heat penetrates deeply into muscles, inducing profound relaxation while improving circulation and relieving tension.",
+        "This ancient healing system combines acupressure, Indian Ayurvedic principles, and assisted yoga postures. Marlenewellness therapy use hands, knees, legs, and feet to move you into a series of stretches while applying pressure along energy lines. Experience improved flexibility, circulation, and energy levels.",
       image:
-        "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80",
+        "/images/gallery/rita-mas1.jpg",
       bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: false,
     },
     {
       id: 4,
-      name: "Prenatal Comfort Massage",
+      name: "Cupping Massage",
       description:
-        "Specially designed for expectant mothers in their second and third trimesters. This gentle massage relieves the unique discomforts of pregnancy such as back pain, joint aches, and swelling, while ensuring both mother and baby's safety and comfort.",
+        "This traditional therapy uses special cups to create suction on your skin, increasing blood flow and loosening fascia. The negative pressure helps release tight muscles, reduce inflammation, and promote healing. Many clients report relief from chronic pain and improved recovery after physical activity.",
       image:
-        "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80",
+        "/images/gallery/rita-cup2.jpg",
       bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: true,
     },
     {
       id: 5,
-      name: "Aromatherapy Journey",
+      name: "Sensual Massage",
       description:
-        "Enhance your massage with custom-blended essential oils chosen to address your specific needs—whether for relaxation, energy, immune support, or mental clarity. This multi-sensory experience elevates the therapeutic benefits of massage while nurturing both body and mind.",
+        "Explore the art of relaxation and heightened awareness with our sensual massage. This intimate experience is designed to awaken the senses, promoting a deep connection between mind and body. Through gentle, flowing strokes, Marlenewellness skilled therapist creates an atmosphere of tranquility and comfort",
       image:
-        "https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?w=800&q=80",
+        "/images/gallery/rita-sens.webp",
       bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: false,
     },
     {
       id: 6,
-      name: "Thai-Inspired Stretch Therapy",
+      name: "Geriatric Massage",
       description:
-        "A unique therapy that combines gentle stretching with acupressure techniques. Our therapists guide you through yoga-like stretches while applying pressure along energy lines, improving flexibility, circulation, and creating a sense of lightness in the body.",
+        "Gentle techniques designed specifically for the elderly to improve circulation and mobility. Marlenewellness therapy uses light pressure and shorter sessions to accommodate sensitive skin and joints. Regular sessions can help reduce pain, improve range of motion, and enhance overall quality of life.",
       image:
-        "https://images.unsplash.com/photo-1537128535997-13b690849da9?w=800&q=80",
+        "/images/gallery/rita-geria.jpg",
       bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: true,
     },
     {
       id: 7,
-      name: "Executive Stress Relief",
+      name: "Shiatsu Massage",
       description:
-        "Designed for busy professionals, this targeted treatment focuses on areas most affected by workplace stress—the neck, shoulders, and back. Includes special attention to tension headaches and the effects of prolonged sitting, providing rapid relief and renewed focus.",
+        "This Japanese technique uses rhythmic pressure on specific points along the body's meridians. Marlenewellness therapy applies pressure using their fingers, palms, and thumbs to balance your energy flow and promote natural healing. Experience reduced stress, improved circulation, and a deep sense of relaxation.",
       image:
-        "https://images.unsplash.com/photo-1573495804683-641191e042ea?w=800&q=80",
+        "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80",
       bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: false,
     },
     {
       id: 8,
-      name: "Couples Retreat",
+      name: "Swedish Massage",
       description:
-        "Share the gift of relaxation with someone special. Two therapists work in tandem to provide simultaneous massages in our dedicated couples suite. Choose from any of our massage modalities and enjoy this shared journey to wellness.",
+        "Our most popular massage combines long, flowing strokes with kneading and circular movements. This classic technique improves circulation, eases muscle tension, and induces deep relaxation. Perfect for first-time clients or those seeking a gentle yet effective full-body experience.",
       image:
-        "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=800&q=80",
+        "/images/gallery/rita-swed.webp",
       bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: true,
+    },
+    {
+      id: 9,
+      name: "Aromatherapy Massage",
+      description:
+        "Enhance your massage experience with the therapeutic benefits of essential oils. Marlenewellness therapy blend oils specifically chosen for your needs, whether for relaxation, energy, or immune support. The combination of massage and aromatherapy creates a multi-sensory experience that nurtures both body and mind.",
+      image:
+        "/images/gallery/aroma-mass.webp",
+      bookingLink: "https://form.jotform.com/251290581267560",
+      isReversed: false,
     },
   ];
 
@@ -119,31 +210,31 @@ const Home = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
+      name: "John Smith",
       text: "The deep tissue massage was exactly what I needed. My chronic back pain has significantly improved after just three sessions!",
       rating: 5,
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah",
+      avatar: "/images/gallery/man-head1.webp",
     },
     {
       id: 2,
-      name: "Michael Chen",
+      name: "Michael Brown",
       text: "I've tried many massage therapists over the years, but this experience was truly exceptional. The attention to detail and personalized approach made all the difference.",
       rating: 5,
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=michael",
+      avatar: "/images/gallery/man-head2.avif",
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
+      name: "Robert Davis",
       text: "The hot stone massage was incredibly relaxing. The ambiance of the space combined with the therapist's expertise created the perfect escape from my busy life.",
       rating: 4,
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=emily",
+      avatar: "/images/gallery/man-head3.webp",
     },
     {
       id: 4,
-      name: "David Thompson",
+      name: "David Wilson",
       text: "As someone with sports injuries, I was skeptical about massage therapy. But after my first session, I was convinced. My recovery time has improved dramatically.",
       rating: 5,
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=david",
+      avatar: "/images/gallery/man-head4.webp",
     },
   ];
 
@@ -457,164 +548,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
-      {/* <section id="contact" className="py-20 px-4 bg-white">
-        <div className="container mx-auto">
-          <motion.h2
-            className="text-3xl md:text-4xl font-bold mb-12 text-center text-[#9d174d] font-serif"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            Get In Touch
-          </motion.h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="bg-[#fdf2f8] p-8 rounded-lg shadow-lg"
-            >
-              <h3 className="text-2xl font-semibold mb-6 text-[#9d174d] font-serif">
-                Contact Information
-              </h3>
-              <div className="space-y-4">
-                <p className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 mr-3 text-[#9d174d]"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                  </svg>
-                  <span>(734) 406-2193</span>
-                </p>
-                <p className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 mr-3 text-[#9d174d]"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <rect width="20" height="16" x="2" y="4" rx="2" />
-                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                  </svg>
-                  <span>dulcesmassagetherapy@gmail.com</span>
-                </p>
-                
-              </div>
-              
-              <div className="mt-6 md:mt-8">
-          <h4 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-[#9d174d]">
-            Follow Me
-          </h4>
-          <div className="flex space-x-3 md:space-x-4">
-            <a href="#" className="text-[#9d174d] hover:text-[#52162e] transition-colors">
-              <FaFacebook className="h-5 w-5 md:h-6 md:w-6" />
-            </a>
-            <a href="#" className="text-[#9d174d] hover:text-[#52162e] transition-colors">
-              <FaTelegram className="h-5 w-5 md:h-6 md:w-6" />
-            </a>
-            <a href="#" className="text-[#9d174d] hover:text-[#52162e] transition-colors">
-              <FaTiktok className="h-5 w-5 md:h-6 md:w-6" />
-            </a>
-            <a href="#" className="text-[#9d174d] hover:text-[#52162e] transition-colors">
-              <FaInstagram className="h-5 w-5 md:h-6 md:w-6" />
-            </a>
-          </div>
-        </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-            >
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block text-sm font-medium text-gray-700 mb-1"
-                    >
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition"
-                      placeholder="Your name"
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-sm font-medium text-gray-700 mb-1"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition"
-                      placeholder="Your email"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label
-                    htmlFor="subject"
-                    className="block text-sm font-medium text-gray-700 mb-1"
-                  >
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition"
-                    placeholder="Subject"
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-medium text-gray-700 mb-1"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={5}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition"
-                    placeholder="Your message"
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="w-full px-6 py-3 bg-[#9d174d] text-white rounded-md hover:bg-[#831843] transition-all duration-300 shadow-md hover:scale-[1.02]"
-                >
-                  Send Message
-                </button>
-              </form>
-            </motion.div>
-          </div>
-        </div>
-      </section> */}
+      
 
       {/* Contact Section */}
 <section id="contact" className="py-16 md:py-20 px-4 bg-white">
