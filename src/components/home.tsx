@@ -40,7 +40,7 @@ const Home = () => {
         "Our exclusive treatment combines multiple techniques tailored to your specific needs. This premium experience includes aromatherapy, heated towels, and a scalp massage, leaving you in a state of complete bliss and rejuvenation.",
       image:
         "https://images.unsplash.com/photo-1620733723572-11c53f73a416?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: false,
     },
     {
@@ -50,7 +50,7 @@ const Home = () => {
         "A therapeutic massage that targets the deeper layers of muscle and connective tissue. Using slow, deliberate strokes and firm pressure, our specialists release chronic tension patterns and provide relief from persistent pain and stiffness.",
       image:
         "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: true,
     },
     {
@@ -60,7 +60,7 @@ const Home = () => {
         "Smooth, heated basalt stones are placed on key points of the body while warm oil is used for massage. The heat penetrates deeply into muscles, inducing profound relaxation while improving circulation and relieving tension.",
       image:
         "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: false,
     },
     {
@@ -70,7 +70,7 @@ const Home = () => {
         "Specially designed for expectant mothers in their second and third trimesters. This gentle massage relieves the unique discomforts of pregnancy such as back pain, joint aches, and swelling, while ensuring both mother and baby's safety and comfort.",
       image:
         "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: true,
     },
     {
@@ -80,7 +80,7 @@ const Home = () => {
         "Enhance your massage with custom-blended essential oils chosen to address your specific needs—whether for relaxation, energy, immune support, or mental clarity. This multi-sensory experience elevates the therapeutic benefits of massage while nurturing both body and mind.",
       image:
         "https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: false,
     },
     {
@@ -90,7 +90,7 @@ const Home = () => {
         "A unique therapy that combines gentle stretching with acupressure techniques. Our therapists guide you through yoga-like stretches while applying pressure along energy lines, improving flexibility, circulation, and creating a sense of lightness in the body.",
       image:
         "https://images.unsplash.com/photo-1537128535997-13b690849da9?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: true,
     },
     {
@@ -100,7 +100,7 @@ const Home = () => {
         "Designed for busy professionals, this targeted treatment focuses on areas most affected by workplace stress—the neck, shoulders, and back. Includes special attention to tension headaches and the effects of prolonged sitting, providing rapid relief and renewed focus.",
       image:
         "https://images.unsplash.com/photo-1573495804683-641191e042ea?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: false,
     },
     {
@@ -110,7 +110,7 @@ const Home = () => {
         "Share the gift of relaxation with someone special. Two therapists work in tandem to provide simultaneous massages in our dedicated couples suite. Choose from any of our massage modalities and enjoy this shared journey to wellness.",
       image:
         "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290581267560",
       isReversed: true,
     },
   ];
