@@ -117,7 +117,7 @@ const Home = () => {
       id: 1,
       name: "Deep Tissue Massage",
       description:
-        "Targets deeper layers of muscle and connective tissue to release chronic tension. Dulce's Massage Therapy applies firm pressure to reach problem areas, providing relief from persistent pain and improving mobility. Perfect for those with chronic aches or recovering from injuries.",
+        "Targets deeper layers of muscle and connective tissue to release chronic tension. Dulce's Massage applies firm pressure to reach problem areas, providing relief from persistent pain and improving mobility. Perfect for those with chronic aches or recovering from injuries.",
       image:
         "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80",
 
@@ -128,7 +128,7 @@ const Home = () => {
       id: 2,
       name: "Heated Stone Massage",
       description:
-        "Experience deep relaxation as smooth, heated stones are placed on key points of your body. The warmth penetrates muscles to release tension while Dulce's Massage Therapy uses the stones to apply gentle pressure. This therapeutic treatment improves circulation and promotes a profound sense of well-being.",
+        "Experience deep relaxation as smooth, heated stones are placed on key points of your body. The warmth penetrates muscles to release tension while Dulce's Massage uses the stones to apply gentle pressure. This therapeutic treatment improves circulation and promotes a profound sense of well-being.",
       image:
         "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80",
       bookingLink: "https://form.jotform.com/251290581267560",
@@ -138,7 +138,7 @@ const Home = () => {
       id: 3,
       name: "Thai Massage",
       description:
-        "This ancient healing system combines acupressure, Indian Ayurvedic principles, and assisted yoga postures. Dulce's Massage Theyapy use hands, knees, legs, and feet to move you into a series of stretches while applying pressure along energy lines. Experience improved flexibility, circulation, and energy levels.",
+        "This ancient healing system combines acupressure, Indian Ayurvedic principles, and assisted yoga postures. Dulce's Massage use hands, knees, legs, and feet to move you into a series of stretches while applying pressure along energy lines. Experience improved flexibility, circulation, and energy levels.",
       image:
         "/images/gallery/rita-mas1.jpg",
       bookingLink: "https://form.jotform.com/251290581267560",
@@ -168,7 +168,7 @@ const Home = () => {
       id: 6,
       name: "Geriatric Massage",
       description:
-        "Gentle techniques designed specifically for the elderly to improve circulation and mobility. Dulce's Massage Therapy uses light pressure and shorter sessions to accommodate sensitive skin and joints. Regular sessions can help reduce pain, improve range of motion, and enhance overall quality of life.",
+        "Gentle techniques designed specifically for the elderly to improve circulation and mobility. Dulce's Massage uses light pressure and shorter sessions to accommodate sensitive skin and joints. Regular sessions can help reduce pain, improve range of motion, and enhance overall quality of life.",
       image:
         "/images/gallery/rita-geria.jpg",
       bookingLink: "https://form.jotform.com/251290581267560",
@@ -178,7 +178,7 @@ const Home = () => {
       id: 7,
       name: "Shiatsu Massage",
       description:
-        "This Japanese technique uses rhythmic pressure on specific points along the body's meridians. Dulce's Massage Therapy applies pressure using their fingers, palms, and thumbs to balance your energy flow and promote natural healing. Experience reduced stress, improved circulation, and a deep sense of relaxation.",
+        "This Japanese technique uses rhythmic pressure on specific points along the body's meridians. Dulce's Massage Therapy applies pressure using fingers, palms, and thumbs to balance your energy flow and promote natural healing. Experience reduced stress, improved circulation, and a deep sense of relaxation.",
       image:
         "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80",
       bookingLink: "https://form.jotform.com/251290581267560",
